@@ -1,0 +1,135 @@
+header {
+	position: relative;
+	border-bottom: 1px solid;
+	border-color: #e5e5e5;
+	padding: 20px 0;
+	line-height: 8px;
+	height: 32px;
+}
+
+body {
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+	color:#333333;
+}
+
+.weather-calendar {
+	font-size: 16px;
+	margin-left: 32px;
+	position: absolute;
+	left: 0;
+}
+
+.social {
+	margin-right: 32px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 10px;
+	right: 0;
+}
+
+.social ul {
+	list-style:none;
+}
+
+.social li {
+	float: left;
+	margin: 3px;
+}
+
+.social a {
+	height: 32px;
+	width: 32px;
+
+	display: block;
+	text-indent: -9999px;
+}
+
+.social a[href*="facebook.com"] {
+	background-image: url(../img/facebook.png);
+}
+
+.social a[href*="twitter.com"] {
+	background-image: url(../img/twitter.png);    
+}
+
+.social a[href*="instagram.com"] {
+	background-image: url(../img/instagram.png);
+}
+
+.social a[href*="youtube.com"] {
+	background-image: url(../img/youtube.png);
+}
+
+.search {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: 10px;
+	right: 0;
+	margin-left: 60px;
+}
+
+#searchform {
+	display: inline;
+}
+
+.banner {
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+.menu-opcoes {
+	text-align: center;
+	border-bottom: 1px solid;
+	border-color: #e5e5e5;
+}
+
+.menu-opcoes ul li {
+	display: inline;
+	font-size: 22px;
+	margin-left: 20px;
+}
+
+.menu-opcoes a {
+	color: #333333;
+}
+
+.painel-slug {
+	margin: 10px 0;
+	padding: 50px;
+	float: left;
+}
+
+.painel-slug ol {
+	text-align: left;
+}
+
+.painel-slug li {
+	display: inline-block;
+	border: 1px solid #e5e5e5;
+	margin: 5px;
+	text-align: center;
+}
+
+.painel-slug img {
+	width: 320px;
+}
+
+.painel-diverso {
+	float: right;
+	padding: 50px;
+	width: 300px;
+}
+
+footer {
+	background-color: black;
+	padding: 20px 0;
+	clear: both;
+}
+
+#rodape {
+	margin-left: 32px;
+}
