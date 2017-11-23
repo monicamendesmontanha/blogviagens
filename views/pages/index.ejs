@@ -6,35 +6,60 @@
     <body>
         <header>
             <% include ../partials/header %>   
-        </header> 
-        <div class="painel-slug">
-            <ol>
-                <li>
-                    <a href="produto.html">
-                        <figure>
-                            <img src="img/fotografias/lagonegro.png">
-                            <figcaption>Legenda da Foto 350px</figcaption>
-                        </figure>
-                    </a>
-                </li>
-                <li>
-                    <a href="produto.html">
-                        <figure>
-                            <img src="img/fotografias/marys.jpeg">
-                            <figcaption>St Mary's Cathedral</figcaption>
-                        </figure>
-                    </a>
-                </li>
-            </ol>
-        </div>
-        <div class="painel-diverso">
-            <div><strong>INSTAGRAM</strong>
-                <!-- SnapWidget -->
-                <script src="https://snapwidget.com/js/snapwidget.js"></script>
-                <iframe src="https://snapwidget.com/embed/458506" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; "></iframe>
+        </header>
+        <div class="agrupador-painel">
+            <div class="agrupador-painel-post">
+                <div class="painel-post">
+                    <ol>
+                        <li>
+                            <a href="produto.html">
+                                <figure>
+                                    <img src="img/fotografias/temaiken.jpg">
+                                    <figcaption>Post Nacional 1</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="produto.html">
+                                <figure>
+                                    <img src="img/fotografias/palmbeach.jpg">
+                                    <figcaption>Post Nacional 2</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                    </ol>
+                </div>
+                <div class="painel-post">
+                    <ol>
+                        <li>
+                            <a href="produto.html">
+                                <figure>
+                                    <img src="img/fotografias/hotelpipa.jpg">
+                                    <figcaption>Post Internacional 1</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="produto.html">
+                                <figure>
+                                    <img src="img/fotografias/eubr101.jpg">
+                                    <figcaption>Post Internacional 2</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                    </ol>
+                </div>
             </div>
-        </div>
-        <% include ../partials/visited-countries-map %>
+            <div class="painel-diverso">
+                <% include ../partials/visited-countries-map %>
+                <div>
+                    <!-- SnapWidget -->
+                    <script src="https://snapwidget.com/js/snapwidget.js"></script>
+                    <iframe src="https://snapwidget.com/embed/458506" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; "></iframe>
+                    <span class="instagram-label">INSTAGRAM</span>
+                </div>
+            </div>
+        </div>  
         <footer>
             <% include ../partials/footer %>
         </footer>    

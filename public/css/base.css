@@ -54,7 +54,7 @@ body {
 	background-image: url(../img/twitter.png);    
 }
 
-.social a[href*="instagram.com"] {
+.social a[href*="instagram.com/goodtripssite"] {
 	background-image: url(../img/instagram.png);
 }
 
@@ -97,31 +97,49 @@ body {
 	color: #333333;
 }
 
-.painel-slug {
-	margin: 10px 0;
-	padding: 50px;
-	float: left;
+.painel-post {
+	margin: 5px 0;
+	padding: 10px;
+	position: relative;
 }
 
-.painel-slug ol {
+.painel-post ol {
 	text-align: left;
 }
 
-.painel-slug li {
+.painel-post li {
 	display: inline-block;
-	border: 1px solid #e5e5e5;
-	margin: 5px;
+	border: 0;
+	margin: 0;
 	text-align: center;
 }
 
-.painel-slug img {
-	width: 320px;
+.painel-post img {
+	width: 350px;
 }
 
 .painel-diverso {
-	float: right;
-	padding: 50px;
+	position: relative;
+	top: 0;
+	right: 0;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
 	width: 300px;
+}
+
+.instagram-label {
+	font-weight: bold;
+	float: right;
+}
+
+.agrupador-painel-post {
+	width: 80%;
+}
+
+.agrupador-painel {
+	display: inline-flex;
 }
 
 footer {
